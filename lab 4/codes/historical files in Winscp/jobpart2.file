@@ -1,0 +1,3 @@
+hadoop fs -rmr /scr/shuowang/lab4/exp1/output
+
+hadoop jar /home/shuowang/dummysort2.jar dummysort2 /class/s15419x/lab4/gensort-out-250M /scr/shuowang/lab4/exp1/output

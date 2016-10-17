@@ -1,0 +1,86 @@
+namespace application ;
+
+composite Lab10
+{
+	graph
+		(stream<rstring TimeStamp, rstring SensorID, rstring ChildID,
+			rstring FromRoom, rstring ToRoom> rawdata) as TCPSource_1 = TCPSource()
+		{
+			param
+				role : client ;
+				address : "10.24.84.229" ;
+				port : "3310" ;
+				format : csv ;
+		}
+
+		(stream<rstring contents> RawData) as Custom_2 = Custom(rawdata)
+		{
+			logic
+				onTuple rawdata : submit({ contents = TimeStamp + " " + SensorID + " " +
+					ChildID + " " + FromRoom + " " + ToRoom }, RawData) ;
+		}
+
+		() as FileSink_3 = FileSink(RawData)
+		{
+			param
+				file : "rawdata.txt" ;
+				format : line ;
+		}
+
+		(stream<rstring contents> Task1_4_out0) as Task1_4 = Task1(rawdata)
+		{
+		}
+
+		() as FileSink_5 = FileSink(Task1_4_out0)
+		{
+			param
+				file : "LocationLog.txt" ;
+				format : line ;
+		}
+
+		() as FileSink_6 = FileSink(task2_7_out0)
+		{
+			param
+				file : "MissingChildAlert.txt" ;
+				format : line ;
+		}
+
+		(stream<rstring contents> task2_7_out0) as task2_7 = task2(rawdata)
+		{
+		}
+
+		(stream<rstring contents> task3_8_out0) as task3_8 = task3(rawdata)
+		{
+		}
+
+		() as FileSink_9 = FileSink(task3_8_out0)
+		{
+			param
+				file : "UnsafeRoomAlert.txt" ;
+				format : line ;
+		}
+
+		(stream<rstring contents> task4_10_out0) as task4_10 = task4(rawdata)
+		{
+		}
+
+		(stream<rstring contents> task4b_11_out0) as task4b_11 = task4b(rawdata)
+		{
+		}
+
+		() as FileSink_12 = FileSink(task4_10_out0)
+		{
+			param
+				file : "RoomStats.txt" ;
+				format : line ;
+		}
+
+		() as FileSink_13 = FileSink(task4b_11_out0)
+		{
+			param
+				file : "ChildStats.txt" ;
+				format : line ;
+		}
+
+}
+

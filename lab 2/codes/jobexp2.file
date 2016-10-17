@@ -1,0 +1,3 @@
+hadoop fs -rmr /user/shuowang/lab2/exp2/output
+hadoop fs -rmr /user/shuowang/lab2/exp2/temp 
+hadoop jar /home/shuowang/lab2/Driver.jar Driver /class/s14419x/lab2/shakespeare /user/shuowang/lab2/exp2/output/

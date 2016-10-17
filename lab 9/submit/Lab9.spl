@@ -1,0 +1,290 @@
+namespace application ;
+
+composite Lab9
+{
+
+//type 
+//call=tuple<int32 ID,int32 start>;
+
+	graph
+		(stream<rstring TimeStamp, int32 CallerID, int32 CalleeID, int32 Duration>
+			records) as TCPSource_2 = TCPSource()
+		{
+			param
+				role : client ;
+				address : "10.24.84.229" ;
+				port : "3322" ;
+				format : csv ;
+		}
+
+		() as FileSink_5 = FileSink(suspects as inPort0Alias)
+		{
+			param
+				file : "SuspectRecords.txt" ;
+				format : line ;
+		}
+
+		(stream<int32 CallerID, rstring Type, int32 Time> suspectsAB) as Custom_3 =
+			Custom(converted as inPort0Alias)
+		{
+			logic
+				state :
+				{
+				// initialize 2 list, both of them together serve as a table, 
+				// it keeps recording all the time and Callee for each Caller					
+					mutable list<int32> CalleeIDs ;
+					mutable list<int32> starttimes ;
+
+					// initialize 2 map with nested structure,
+					// map each Caller to its callee list and time list
+					mutable map<int32, list<int32>> AllCalleeIDs ;
+					mutable map<int32, list<int32>> Allstarttimes ;
+				}
+
+				onTuple converted :
+				{
+				// if we've already seen a Caller, get and update its callee and time list
+					if(has(AllCalleeIDs, CallerID))
+					{
+					// get the callee list and time list
+						CalleeIDs = AllCalleeIDs [ CallerID ] ;
+						starttimes = Allstarttimes [ CallerID ] ;
+						// add new observation in
+						appendM(CalleeIDs, CalleeID) ;
+						appendM(starttimes, starttime) ;
+						// update the list, only keep the records within last 10 min
+						while(min(starttimes) < starttime - 600)
+						{
+							removeM(starttimes, 0) ;
+							removeM(CalleeIDs, 0) ;
+						}
+						// type A check				
+						if(size(CalleeIDs) >= 15)
+						{
+							submit({ CallerID = CallerID, Type = "A", Time = time }, suspectsAB) ;
+						}
+						// type B check
+						if(countDistinct(CalleeIDs) >= 10)
+						{
+							submit({ CallerID = CallerID, Type = "B", Time = time }, suspectsAB) ;
+						}
+
+						// update callee and time list
+						AllCalleeIDs [ CallerID ] = CalleeIDs ;
+						Allstarttimes [ CallerID ] = starttimes ;
+					}
+					// if its the first time we see a Caller, put it into the map
+					else
+					{
+						insertM(AllCalleeIDs, CallerID, [ CalleeID ]) ;
+						insertM(Allstarttimes, CallerID, [ starttime ]) ;
+					}
+
+					// check the size
+					// submit({contents="size"+(rstring)size(AllCalleeIDs[CallerID])},suspects);
+
+				}
+
+		}
+
+		(stream<rstring source> SourceData) as Custom_4 = Custom(records)
+		{
+			logic
+				state :
+				{
+					mutable int32 StartTime ;
+					mutable int32 minute ;
+				}
+
+				onTuple records :
+				{
+				// convert time stamp to end time in seconds
+					list<rstring> tokens = tokenize(TimeStamp, " \t", false) ;
+					list<rstring> times = tokenize(tokens [ 1 ], ":", false) ;
+					int32 endtime = 60 * 60 *(int32) times [ 0 ] + 60 *(int32) times [ 1 ]
+						+(int32) times [ 2 ] ;
+						// calculate start time using call duration
+					StartTime = endtime - Duration ;
+					minute = StartTime / 60 ;
+					submit({ source = TimeStamp + " " +(rstring) CallerID + " " +(rstring)
+						CalleeID + " " +(rstring) Duration + " " +(rstring) StartTime + " "
+						+(rstring) minute + " " +(rstring) endtime }, SourceData) ;
+				}
+
+		}
+
+		() as FileSink_6 = FileSink(SourceData)
+		{
+			param
+				file : "SouceData.txt" ;
+				format : line ;
+		}
+
+		(stream<int32 starttime, int32 time, int32 CallerID, int32 CalleeID,
+			int32 Duration, int32 minute> converted) as Functor_6 = Functor(records)
+		{
+			logic
+				state :
+				{
+					mutable int32 StartTime ;
+					mutable int32 endtime ;
+					mutable int32 minute ;
+				}
+
+				onTuple records :
+				{
+				// convert time stamp to end time in seconds
+					list<rstring> tokens = tokenize(TimeStamp, " \t", false) ;
+					list<rstring> times = tokenize(tokens [ 1 ], ":", false) ;
+					endtime = 60 * 60 *(int32) times [ 0 ] + 60 *(int32) times [ 1 ] +(int32)
+						times [ 2 ] ;
+						// calculate start time using call duration
+					StartTime = endtime - Duration ;
+					minute = StartTime / 60 ;
+				}
+
+			output
+				converted : starttime = StartTime, time = endtime, CallerID = CallerID,
+					CalleeID = CalleeID, Duration = Duration, minute = minute ;
+		}
+
+		(stream<int32 CallerID, rstring Type, int32 Time> suspectsC) as Custom_7 =
+			Custom(converted)
+		{
+			logic
+				state :
+				{
+				// initialize a list, it keeps recording all the minute block for each short calls (duration <= 10)					
+					mutable list<int32> minutes ;
+
+					// initialize a map with nested structure,
+					// map each Caller to its time list
+					mutable map<int32, list<int32>> Allminutes ;
+				}
+
+				onTuple converted :
+				{
+				// check the call duration (<=10 or not)
+					if(Duration <= 10)
+					{
+					// if we've already seen a Caller, get and update its minute block list
+						if(has(Allminutes, CallerID))
+						{
+						// get the time list						
+							minutes = Allminutes [ CallerID ] ;
+							// add new observation in						
+							appendM(minutes, minute) ;
+							// update the list, only keep the records within 1 min block
+							while(min(minutes) < minute)
+							{
+								removeM(minutes, 0) ;
+							}
+							// type C check
+							if(size(minutes) >= 5)
+							{
+								submit({ CallerID = CallerID, Type = "C", Time = time }, suspectsC) ;
+							}
+
+							// update minute block list
+							Allminutes [ CallerID ] = minutes ;
+						}
+						// if its the first time we see a Caller, put it into the map
+						else
+						{
+							insertM(Allminutes, CallerID, [ minute ]) ;
+						}
+
+						// check the size
+						// submit({contents="size"+(rstring)size(AllCalleeIDs[CallerID])},suspects);
+
+					}
+
+				}
+
+		}
+
+		(stream<rstring contents> suspects ; stream<int32 CallerID, rstring Type,
+			int32 Time> suspectall) as Custom_8 = Custom(suspectsAB as inPort0Alias ;
+			suspectsC as inPort1Alias)
+		{
+			logic
+				onTuple suspectsAB :
+				{
+					submit({ contents =(rstring) CallerID + Type +(rstring) Time },
+						suspects) ;
+					submit({ CallerID = CallerID, Type = Type, Time = Time }, suspectall) ;
+				}
+
+				onTuple suspectsC :
+				{
+					submit({ contents =(rstring) CallerID + Type +(rstring) Time },
+						suspects) ;
+					submit({ CallerID = CallerID, Type = Type, Time = Time }, suspectall) ;
+				}
+
+		}
+
+		(stream<int32 CallerID, rstring Type, int32 Time> punctuated) as Punctor_9 =
+			Punctor(suspectall)
+		{
+			param
+				punctuate : Time >= 81000 ;
+				position : after ;
+		}
+
+		() as FileSink_10 = FileSink(final as inPort0Alias)
+		{
+			param
+				file : "suspects.txt" ;
+				format : line ;
+		}
+
+		(stream<rstring contents> final) as Custom_11 = Custom(punctuated)
+		{
+			logic
+				state :
+				{
+					mutable set<rstring> Types ;
+					mutable map<int32, set<rstring>> AllTypes ;
+					mutable set<rstring> T ;
+					mutable rstring V ;
+				}
+
+				onTuple punctuated :
+				{
+					if(has(AllTypes, CallerID))
+					{
+						Types = AllTypes [ CallerID ] ;
+						insertM(Types, Type) ;
+						AllTypes [ CallerID ] = Types ;
+					}
+
+					else
+					{
+						insertM(AllTypes, CallerID, { Type }) ;
+					}
+
+				}
+
+				onPunct punctuated :
+				{
+					int32 a = size(AllTypes) ;
+					submit({ contents = "Number of Suspects" + " " +(rstring) a }, final) ;
+					for(int32 key in AllTypes)
+					{
+						T = AllTypes [ key ] ;
+						V = "" ;
+						for(rstring Type in T)
+						{
+							V = V + Type ;
+						}
+
+						submit({ contents =(rstring) key + " " + V }, final) ;
+					}
+
+				}
+
+		}
+
+}
+

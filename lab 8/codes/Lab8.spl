@@ -1,0 +1,100 @@
+namespace application ;
+
+composite Lab8
+{
+	graph
+		// File Source operator
+		(stream<rstring contents> Lines) as FileSource_2 = FileSource()
+		{
+			param
+				file : getSubmissionTimeValue("file") ;
+				format : line ;
+		}
+		
+		// mark number of lines
+		(stream<rstring contents> Numbered) as Functor_2 = Functor(Lines)
+		{
+			logic
+				state :
+				{
+					mutable int32 i = 0 ;
+				}
+
+				onTuple Lines :
+				{
+					i ++ ;
+				}
+
+			output
+				Numbered : contents =(rstring) i + " " + contents ;
+		}
+
+		// output bigresults.txt
+		() as FileSink_5 = FileSink(Numbered)
+		{
+			param
+				file : "bigresults.txt" ;
+				format : line ;
+		}
+
+		// output counts.txt
+		() as FileSink_6 = FileSink(Counts as inPort0Alias)
+		{
+			param
+				file : "counts.txt" ;
+				format : line ;
+		}
+
+		// count number of "history" and adventure
+		(stream<rstring result> Counts) as Custom_5 = Custom(Lines)
+		{
+			logic
+				state :
+				{
+					// reserve 3 variables
+					mutable int32 i = 0 ;
+					mutable int32 history ; 	// history counter
+					mutable int32 adventure ;	// adventure counter
+				}
+
+				onTuple Lines :
+				{
+					// find the line number
+					i ++ ;
+					// for each line, remove all the characters other than a-z, A-z, space, and tab
+					// tokenize the line
+					list<rstring> tokens = tokenize(regexReplace(contents,"[^a-zA-Z 	]","",true), " \t", false) ;
+					for(rstring token in tokens)
+					{
+						// scan each word (convert to lower case)
+						// if see history, the history counter +1
+						if(lower(token) == "history")//(token == "history" | token == "History" | token == "HISTORY")
+						{
+							history ++ ;
+						}
+						// if see adventure, the adventure counter +1
+						if(lower(token) == "adventure")//(token == "adventure" | token == "Adventure" | token == "ADVENTURE")
+						{
+							adventure ++ ;
+						}
+
+					}
+						// rearrange 
+						submit({result=(rstring) i + " " + "history: " +(rstring) history + "; adventure: " +(rstring)
+							adventure}, Counts);	
+				}
+
+				onPunct Lines :
+				{
+					if(currentPunct() == Sys.WindowMarker)
+					{
+						
+						submit(Sys.WindowMarker, Counts);
+					}
+
+				}
+
+		}
+
+}
+

@@ -1,0 +1,31 @@
+Part 1
+
+a	most frequent bigram(s): 'and the'		797
+c	most frequent bigram(s): 'come to'		334
+e	most frequent bigram(s): 'exeunt king'		192
+g	most frequent bigram(s): 'give me'		370
+i	most frequent bigram(s): 'i am'		1889
+k	most frequent bigram(s): 'king henry'		694
+m	most frequent bigram(s): 'my lord'		1669
+o	most frequent bigram(s): 'of the'		1550
+q	most frequent bigram(s): 'queen margaret'		152
+s	most frequent bigram(s): 'shall be'		554
+u	most frequent bigram(s): 'upon the'		303
+w	most frequent bigram(s): 'with the'		622
+y	most frequent bigram(s): 'you are'		715
+
+Part 2
+
+b	most frequent bigram(s): 'by the'		639
+d	most frequent bigram(s): 'do not'		488
+f	most frequent bigram(s): 'for the'		570
+h	most frequent bigram(s): 'he is'		664
+j	most frequent bigram(s): 'joan la'		60
+l	most frequent bigram(s): 'like a'		554
+n	most frequent bigram(s): 'no more'		534
+p	most frequent bigram(s): 'pray you'		379
+r	most frequent bigram(s): 'richard iii'		160
+t	most frequent bigram(s): 'to the'		1671
+v	most frequent bigram(s): 'very well'		62
+x	most frequent bigram(s): 'xi then'		3
+z	most frequent bigram(s): 'zeal to' & 'zounds i'		5

@@ -1,0 +1,3 @@
+hadoop fs -rmr /scr/shuowang/lab2/exp1/output
+hadoop fs –rmr /scr/shuowang/lab2/exp1/temp
+hadoop jar /home/shuowang/lab2/WordCount.jar WordCount /class/s15419x/lab2/shakespeare /scr/shuowang/lab2/exp1/output/

@@ -1,0 +1,118 @@
+Prologue Args:
+Job ID: 76529.cystorm.its.iastate.edu
+User ID: shuowang
+Group ID: 419x
+Job Name: Driver1_shuowang
+Requested: neednodes=studenthadoop,walltime=06:00:00
+Queue: studenthadoop
+Job Account: 
+
+Datanodes available: 22 (22 total, 0 dead)
+rmr: DEPRECATED: Please use 'rm -r' instead.
+rmr: `/scr/shuowang/lab4/exp1/output': No such file or directory
+rmr: DEPRECATED: Please use 'rm -r' instead.
+15/02/25 23:00:35 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+Deleted /scr/shuowang/lab4/exp1/temp
+15/02/25 23:00:39 INFO client.RMProxy: Connecting to ResourceManager at n0/172.20.3.254:8032
+15/02/25 23:00:39 WARN mapreduce.JobSubmitter: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+15/02/25 23:00:40 INFO input.FileInputFormat: Total input paths to process : 1
+15/02/25 23:00:41 INFO mapreduce.JobSubmitter: number of splits:187
+15/02/25 23:00:41 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1424801340152_0149
+15/02/25 23:00:42 INFO impl.YarnClientImpl: Submitted application application_1424801340152_0149
+15/02/25 23:00:42 INFO mapreduce.Job: The url to track the job: http://n0:8088/proxy/application_1424801340152_0149/
+15/02/25 23:00:42 INFO mapreduce.Job: Running job: job_1424801340152_0149
+15/02/25 23:00:49 INFO mapreduce.Job: Job job_1424801340152_0149 running in uber mode : false
+15/02/25 23:00:49 INFO mapreduce.Job:  map 0% reduce 0%
+15/02/25 23:01:00 INFO mapreduce.Job:  map 2% reduce 0%
+15/02/25 23:01:02 INFO mapreduce.Job:  map 4% reduce 0%
+15/02/25 23:01:03 INFO mapreduce.Job:  map 8% reduce 0%
+15/02/25 23:01:05 INFO mapreduce.Job:  map 23% reduce 0%
+15/02/25 23:01:06 INFO mapreduce.Job:  map 46% reduce 0%
+15/02/25 23:01:07 INFO mapreduce.Job:  map 51% reduce 0%
+15/02/25 23:01:08 INFO mapreduce.Job:  map 63% reduce 0%
+15/02/25 23:01:09 INFO mapreduce.Job:  map 64% reduce 0%
+15/02/25 23:01:10 INFO mapreduce.Job:  map 67% reduce 0%
+15/02/25 23:01:11 INFO mapreduce.Job:  map 73% reduce 0%
+15/02/25 23:01:12 INFO mapreduce.Job:  map 79% reduce 0%
+15/02/25 23:01:13 INFO mapreduce.Job:  map 83% reduce 0%
+15/02/25 23:01:14 INFO mapreduce.Job:  map 87% reduce 0%
+15/02/25 23:01:15 INFO mapreduce.Job:  map 89% reduce 0%
+15/02/25 23:01:16 INFO mapreduce.Job:  map 92% reduce 27%
+15/02/25 23:01:17 INFO mapreduce.Job:  map 95% reduce 27%
+15/02/25 23:01:18 INFO mapreduce.Job:  map 97% reduce 27%
+15/02/25 23:01:19 INFO mapreduce.Job:  map 98% reduce 32%
+15/02/25 23:01:21 INFO mapreduce.Job:  map 99% reduce 32%
+15/02/25 23:01:24 INFO mapreduce.Job:  map 100% reduce 32%
+15/02/25 23:01:25 INFO mapreduce.Job:  map 100% reduce 67%
+15/02/25 23:01:28 INFO mapreduce.Job:  map 100% reduce 100%
+15/02/25 23:01:30 INFO mapreduce.Job: Job job_1424801340152_0149 completed successfully
+15/02/25 23:01:30 INFO mapreduce.Job: Counters: 51
+	File System Counters
+		FILE: Number of bytes read=27244229
+		FILE: Number of bytes written=72405055
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=25000784483
+		HDFS: Number of bytes written=33
+		HDFS: Number of read operations=564
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Killed map tasks=2
+		Launched map tasks=189
+		Launched reduce tasks=1
+		Data-local map tasks=181
+		Rack-local map tasks=8
+		Total time spent by all maps in occupied slots (ms)=3016795
+		Total time spent by all reduces in occupied slots (ms)=22948
+		Total time spent by all map tasks (ms)=3016795
+		Total time spent by all reduce tasks (ms)=22948
+		Total vcore-seconds taken by all map tasks=3016795
+		Total vcore-seconds taken by all reduce tasks=22948
+		Total megabyte-seconds taken by all map tasks=3089198080
+		Total megabyte-seconds taken by all reduce tasks=23498752
+	Map-Reduce Framework
+		Map input records=250000000
+		Map output records=249947
+		Map output bytes=26744329
+		Map output materialized bytes=27245345
+		Input split bytes=22627
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=1
+		Reduce shuffle bytes=27245345
+		Reduce input records=249947
+		Reduce output records=1
+		Spilled Records=499894
+		Shuffled Maps =187
+		Failed Shuffles=0
+		Merged Map outputs=187
+		GC time elapsed (ms)=42293
+		CPU time spent (ms)=763500
+		Physical memory (bytes) snapshot=50725756928
+		Virtual memory (bytes) snapshot=186563518464
+		Total committed heap usage (bytes)=37206622208
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=25000761856
+	File Output Format Counters 
+		Bytes Written=33
+Epilogue Args:
+Job ID: 76529.cystorm.its.iastate.edu
+User ID: shuowang
+Group ID: 419x
+Job Name: Driver1_shuowang
+Session ID: 28500
+Resource List: neednodes=studenthadoop,walltime=06:00:00
+Resources Used: cput=00:00:25,mem=229864kb,vmem=1113744kb,walltime=00:01:05
+Queue Name: studenthadoop
+Account String: 
+
+./hadoopepi: Command not found.

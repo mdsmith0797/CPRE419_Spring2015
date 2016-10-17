@@ -1,0 +1,77 @@
+You have one small mistake in your regex. Try this:
+
+String[] Res = Text.split("[\\p{Punct}\\s]+");
+[\\p{Punct}\\s]+ move the + form inside the character class to the outside. Other wise you are splitting also on a + and do not combine split characters in a row.
+
+So I get for this code
+
+String Text = "But I know. For example, the word \"can\'t\" should";
+
+String[] Res = Text.split("[\\p{Punct}\\s]+");
+System.out.println(Res.length);
+for (String s:Res){
+    System.out.println(s);
+}
+this result
+
+10
+But
+I
+know
+For
+example
+the
+word
+can
+t
+should
+
+
+
+
+
+
+
+String.split takes a regular expression as argument.
+
+This means you can alternate whatever symbol or text abstraction in one parameter in order to split your String.
+
+See documentation here.
+
+Here's an example in your case:
+
+String toSplit = "a+b-c*d/e=f";
+String[] splitted = toSplit.split("[-+*/=]");
+for (String split: splitted) {
+    System.out.println(split);
+}
+Output:
+
+a
+b
+c
+d
+e
+f
+
+
+ 			int frequency = 0;
+ 			String frequentbigram = "";
+ 			String[] buffer;
+
+			for (Text val : values) {
+				context.progress();
+				buffer = val.toString().split("	");
+				if ( frequency<=Integer.parseInt(buffer[2])){
+					frequency = Integer.parseInt(buffer[2]);
+					frequentbigram = frequentbigram + "||" + buffer[1];
+				} // end if
+				out.set(Integer.toString(frequency) + frequentbigram);
+				
+				context.write(key, out);
+			
+
+			}
+
+
+

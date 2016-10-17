@@ -1,0 +1,3 @@
+hadoop fs -rmr /scr/shuowang/lab5/exp3/output
+hadoop fs -rmr /scr/shuowang/lab5/exp3/temp
+hadoop jar /home/shuowang/Exp3.jar Exp3 -libjars /home/shuowang/jsonsimple1.1.1.jar

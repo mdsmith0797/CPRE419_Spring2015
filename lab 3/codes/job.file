@@ -1,0 +1,4 @@
+hadoop fs -rmr /scr/shuowang/lab3/exp1/output
+hadoop fs -rmr /scr/shuowang/lab3/exp1/temp1
+hadoop fs -rmr /scr/shuowang/lab3/exp1/temp
+hadoop jar /home/shuowang/Exp1.jar Exp1

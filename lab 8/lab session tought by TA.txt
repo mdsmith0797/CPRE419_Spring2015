@@ -1,0 +1,8 @@
+Stream<type> OutputStreamName = Functor (InputStreamName)
+
+
+FIleSource --> FUnctor --> FIle Sink
+		lines		Numbered
+	|
+	 --------> Filtering  --->
+		line

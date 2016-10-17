@@ -1,0 +1,4 @@
+hadoop fs -rmr /scr/shuowang/lab4/exp1/output
+hadoop fs -rmr /scr/shuowang/lab4/exp1/temp
+
+hadoop jar /home/shuowang/sortsample.jar sortsample /user/shuowang/lab4/testdata /scr/shuowang/lab4/exp1/output

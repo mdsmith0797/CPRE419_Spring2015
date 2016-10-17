@@ -1,0 +1,2239 @@
+[
+ {
+  "contributors": null, 
+  "coordinates": null, 
+  "created_at": "Fri Feb 20 18:46:35 +0000 2015", 
+  "entities": {
+   "hashtags": [
+    {
+     "indices": [
+      33, 
+      40
+     ], 
+     "text": "Oscars"
+    }, 
+    {
+     "indices": [
+      70, 
+      85
+     ], 
+     "text": "AmericanSniper"
+    }
+   ], 
+   "media": [
+    {
+     "display_url": "pic.twitter.com/AQTq6tW23G", 
+     "expanded_url": "http://twitter.com/thebaselinemag/status/568840945791168512/photo/1", 
+     "id": 568840945341181952, 
+     "id_str": "568840945341181952", 
+     "indices": [
+      139, 
+      140
+     ], 
+     "media_url": "http://pbs.twimg.com/media/B-Tt03DCMAALGpK.jpg", 
+     "media_url_https": "https://pbs.twimg.com/media/B-Tt03DCMAALGpK.jpg", 
+     "sizes": {
+      "large": {
+       "h": 301, 
+       "resize": "fit", 
+       "w": 591
+      }, 
+      "medium": {
+       "h": 301, 
+       "resize": "fit", 
+       "w": 591
+      }, 
+      "small": {
+       "h": 173, 
+       "resize": "fit", 
+       "w": 340
+      }, 
+      "thumb": {
+       "h": 150, 
+       "resize": "crop", 
+       "w": 150
+      }
+     }, 
+     "source_status_id": 568840945791168512, 
+     "source_status_id_str": "568840945791168512", 
+     "source_user_id": 1363006170, 
+     "source_user_id_str": "1363006170", 
+     "type": "photo", 
+     "url": "http://t.co/AQTq6tW23G"
+    }
+   ], 
+   "symbols": [], 
+   "urls": [
+    {
+     "display_url": "thebaselinemagazine.com", 
+     "expanded_url": "http://thebaselinemagazine.com", 
+     "indices": [
+      115, 
+      137
+     ], 
+     "url": "http://t.co/dNwB4FHehy"
+    }
+   ], 
+   "user_mentions": [
+    {
+     "id": 1363006170, 
+     "id_str": "1363006170", 
+     "indices": [
+      3, 
+      18
+     ], 
+     "name": " the base line ", 
+     "screen_name": "thebaselinemag"
+    }
+   ]
+  }, 
+  "favorite_count": 0, 
+  "favorited": false, 
+  "geo": null, 
+  "id": 568844180836913152, 
+  "id_str": "568844180836913152", 
+  "in_reply_to_screen_name": null, 
+  "in_reply_to_status_id": null, 
+  "in_reply_to_status_id_str": null, 
+  "in_reply_to_user_id": null, 
+  "in_reply_to_user_id_str": null, 
+  "lang": "en", 
+  "metadata": {
+   "iso_language_code": "en", 
+   "result_type": "recent"
+  }, 
+  "place": null, 
+  "possibly_sensitive": false, 
+  "retweet_count": 1, 
+  "retweeted": false, 
+  "retweeted_status": {
+   "contributors": null, 
+   "coordinates": null, 
+   "created_at": "Fri Feb 20 18:33:44 +0000 2015", 
+   "entities": {
+    "hashtags": [
+     {
+      "indices": [
+       13, 
+       20
+      ], 
+      "text": "Oscars"
+     }, 
+     {
+      "indices": [
+       50, 
+       65
+      ], 
+      "text": "AmericanSniper"
+     }
+    ], 
+    "media": [
+     {
+      "display_url": "pic.twitter.com/AQTq6tW23G", 
+      "expanded_url": "http://twitter.com/thebaselinemag/status/568840945791168512/photo/1", 
+      "id": 568840945341181952, 
+      "id_str": "568840945341181952", 
+      "indices": [
+       118, 
+       140
+      ], 
+      "media_url": "http://pbs.twimg.com/media/B-Tt03DCMAALGpK.jpg", 
+      "media_url_https": "https://pbs.twimg.com/media/B-Tt03DCMAALGpK.jpg", 
+      "sizes": {
+       "large": {
+        "h": 301, 
+        "resize": "fit", 
+        "w": 591
+       }, 
+       "medium": {
+        "h": 301, 
+        "resize": "fit", 
+        "w": 591
+       }, 
+       "small": {
+        "h": 173, 
+        "resize": "fit", 
+        "w": 340
+       }, 
+       "thumb": {
+        "h": 150, 
+        "resize": "crop", 
+        "w": 150
+       }
+      }, 
+      "type": "photo", 
+      "url": "http://t.co/AQTq6tW23G"
+     }
+    ], 
+    "symbols": [], 
+    "urls": [
+     {
+      "display_url": "thebaselinemagazine.com", 
+      "expanded_url": "http://thebaselinemagazine.com", 
+      "indices": [
+       95, 
+       117
+      ], 
+      "url": "http://t.co/dNwB4FHehy"
+     }
+    ], 
+    "user_mentions": []
+   }, 
+   "favorite_count": 0, 
+   "favorited": false, 
+   "geo": null, 
+   "id": 568840945791168512, 
+   "id_str": "568840945791168512", 
+   "in_reply_to_screen_name": null, 
+   "in_reply_to_status_id": null, 
+   "in_reply_to_status_id_str": null, 
+   "in_reply_to_user_id": null, 
+   "in_reply_to_user_id_str": null, 
+   "lang": "en", 
+   "metadata": {
+    "iso_language_code": "en", 
+    "result_type": "recent"
+   }, 
+   "place": null, 
+   "possibly_sensitive": false, 
+   "retweet_count": 1, 
+   "retweeted": false, 
+   "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>", 
+   "text": "Countdown to #Oscars!  Will  Hanajun 's review of #AmericanSniper hold true?!  Check it out at http://t.co/dNwB4FHehy http://t.co/AQTq6tW23G", 
+   "truncated": false, 
+   "user": {
+    "contributors_enabled": false, 
+    "created_at": "Thu Apr 18 22:16:48 +0000 2013", 
+    "default_profile": true, 
+    "default_profile_image": false, 
+    "description": "", 
+    "entities": {
+     "description": {
+      "urls": []
+     }, 
+     "url": {
+      "urls": [
+       {
+        "display_url": "thebaselinemagazine.com", 
+        "expanded_url": "http://www.thebaselinemagazine.com", 
+        "indices": [
+         0, 
+         22
+        ], 
+        "url": "http://t.co/OxiN2XQwS9"
+       }
+      ]
+     }
+    }, 
+    "favourites_count": 145, 
+    "follow_request_sent": false, 
+    "followers_count": 52, 
+    "following": false, 
+    "friends_count": 36, 
+    "geo_enabled": false, 
+    "id": 1363006170, 
+    "id_str": "1363006170", 
+    "is_translation_enabled": false, 
+    "is_translator": false, 
+    "lang": "en", 
+    "listed_count": 0, 
+    "location": "", 
+    "name": " the base line ", 
+    "notifications": false, 
+    "profile_background_color": "C0DEED", 
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png", 
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png", 
+    "profile_background_tile": false, 
+    "profile_image_url": "http://pbs.twimg.com/profile_images/3540885842/e25b284069ede181b4801a40913c1aed_normal.jpeg", 
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/3540885842/e25b284069ede181b4801a40913c1aed_normal.jpeg", 
+    "profile_link_color": "0084B4", 
+    "profile_location": null, 
+    "profile_sidebar_border_color": "C0DEED", 
+    "profile_sidebar_fill_color": "DDEEF6", 
+    "profile_text_color": "333333", 
+    "profile_use_background_image": true, 
+    "protected": false, 
+    "screen_name": "thebaselinemag", 
+    "statuses_count": 203, 
+    "time_zone": null, 
+    "url": "http://t.co/OxiN2XQwS9", 
+    "utc_offset": null, 
+    "verified": false
+   }
+  }, 
+  "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>", 
+  "text": "RT @thebaselinemag: Countdown to #Oscars!  Will  Hanajun 's review of #AmericanSniper hold true?!  Check it out at http://t.co/dNwB4FHehy h\u2026", 
+  "truncated": false, 
+  "user": {
+   "contributors_enabled": false, 
+   "created_at": "Wed Dec 26 02:28:02 +0000 2012", 
+   "default_profile": true, 
+   "default_profile_image": false, 
+   "description": "love I try to follow", 
+   "entities": {
+    "description": {
+     "urls": []
+    }
+   }, 
+   "favourites_count": 1704, 
+   "follow_request_sent": false, 
+   "followers_count": 151, 
+   "following": false, 
+   "friends_count": 154, 
+   "geo_enabled": true, 
+   "id": 1036105310, 
+   "id_str": "1036105310", 
+   "is_translation_enabled": false, 
+   "is_translator": false, 
+   "lang": "en", 
+   "listed_count": 1, 
+   "location": "", 
+   "name": "Kyle Smith", 
+   "notifications": false, 
+   "profile_background_color": "C0DEED", 
+   "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png", 
+   "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png", 
+   "profile_background_tile": false, 
+   "profile_banner_url": "https://pbs.twimg.com/profile_banners/1036105310/1405182978", 
+   "profile_image_url": "http://pbs.twimg.com/profile_images/567131389951504385/i_YsaItu_normal.jpeg", 
+   "profile_image_url_https": "https://pbs.twimg.com/profile_images/567131389951504385/i_YsaItu_normal.jpeg", 
+   "profile_link_color": "0084B4", 
+   "profile_location": null, 
+   "profile_sidebar_border_color": "C0DEED", 
+   "profile_sidebar_fill_color": "DDEEF6", 
+   "profile_text_color": "333333", 
+   "profile_use_background_image": true, 
+   "protected": false, 
+   "screen_name": "_kyol", 
+   "statuses_count": 4091, 
+   "time_zone": null, 
+   "url": null, 
+   "utc_offset": null, 
+   "verified": false
+  }
+ }, 
+ {
+  "contributors": null, 
+  "coordinates": null, 
+  "created_at": "Fri Feb 20 18:46:31 +0000 2015", 
+  "entities": {
+   "hashtags": [
+    {
+     "indices": [
+      44, 
+      51
+     ], 
+     "text": "Oscars"
+    }
+   ], 
+   "media": [
+    {
+     "display_url": "pic.twitter.com/rOnXa745Ua", 
+     "expanded_url": "http://twitter.com/ENews/status/568840601354915840/photo/1", 
+     "id": 568840600464551936, 
+     "id_str": "568840600464551936", 
+     "indices": [
+      97, 
+      119
+     ], 
+     "media_url": "http://pbs.twimg.com/media/B-TtgySCcAAzUcK.jpg", 
+     "media_url_https": "https://pbs.twimg.com/media/B-TtgySCcAAzUcK.jpg", 
+     "sizes": {
+      "large": {
+       "h": 1024, 
+       "resize": "fit", 
+       "w": 1024
+      }, 
+      "medium": {
+       "h": 600, 
+       "resize": "fit", 
+       "w": 600
+      }, 
+      "small": {
+       "h": 340, 
+       "resize": "fit", 
+       "w": 340
+      }, 
+      "thumb": {
+       "h": 150, 
+       "resize": "crop", 
+       "w": 150
+      }
+     }, 
+     "source_status_id": 568840601354915840, 
+     "source_status_id_str": "568840601354915840", 
+     "source_user_id": 22179997, 
+     "source_user_id_str": "22179997", 
+     "type": "photo", 
+     "url": "http://t.co/rOnXa745Ua"
+    }
+   ], 
+   "symbols": [], 
+   "urls": [], 
+   "user_mentions": [
+    {
+     "id": 22179997, 
+     "id_str": "22179997", 
+     "indices": [
+      3, 
+      9
+     ], 
+     "name": "E! News", 
+     "screen_name": "ENews"
+    }
+   ]
+  }, 
+  "favorite_count": 0, 
+  "favorited": false, 
+  "geo": null, 
+  "id": 568844160423178240, 
+  "id_str": "568844160423178240", 
+  "in_reply_to_screen_name": null, 
+  "in_reply_to_status_id": null, 
+  "in_reply_to_status_id_str": null, 
+  "in_reply_to_user_id": null, 
+  "in_reply_to_user_id_str": null, 
+  "lang": "en", 
+  "metadata": {
+   "iso_language_code": "en", 
+   "result_type": "recent"
+  }, 
+  "place": null, 
+  "possibly_sensitive": false, 
+  "retweet_count": 17, 
+  "retweeted": false, 
+  "retweeted_status": {
+   "contributors": null, 
+   "coordinates": null, 
+   "created_at": "Fri Feb 20 18:32:22 +0000 2015", 
+   "entities": {
+    "hashtags": [
+     {
+      "indices": [
+       33, 
+       40
+      ], 
+      "text": "Oscars"
+     }
+    ], 
+    "media": [
+     {
+      "display_url": "pic.twitter.com/rOnXa745Ua", 
+      "expanded_url": "http://twitter.com/ENews/status/568840601354915840/photo/1", 
+      "id": 568840600464551936, 
+      "id_str": "568840600464551936", 
+      "indices": [
+       86, 
+       108
+      ], 
+      "media_url": "http://pbs.twimg.com/media/B-TtgySCcAAzUcK.jpg", 
+      "media_url_https": "https://pbs.twimg.com/media/B-TtgySCcAAzUcK.jpg", 
+      "sizes": {
+       "large": {
+        "h": 1024, 
+        "resize": "fit", 
+        "w": 1024
+       }, 
+       "medium": {
+        "h": 600, 
+        "resize": "fit", 
+        "w": 600
+       }, 
+       "small": {
+        "h": 340, 
+        "resize": "fit", 
+        "w": 340
+       }, 
+       "thumb": {
+        "h": 150, 
+        "resize": "crop", 
+        "w": 150
+       }
+      }, 
+      "type": "photo", 
+      "url": "http://t.co/rOnXa745Ua"
+     }
+    ], 
+    "symbols": [], 
+    "urls": [], 
+    "user_mentions": []
+   }, 
+   "favorite_count": 18, 
+   "favorited": false, 
+   "geo": null, 
+   "id": 568840601354915840, 
+   "id_str": "568840601354915840", 
+   "in_reply_to_screen_name": null, 
+   "in_reply_to_status_id": null, 
+   "in_reply_to_status_id_str": null, 
+   "in_reply_to_user_id": null, 
+   "in_reply_to_user_id_str": null, 
+   "lang": "en", 
+   "metadata": {
+    "iso_language_code": "en", 
+    "result_type": "recent"
+   }, 
+   "place": null, 
+   "possibly_sensitive": false, 
+   "retweet_count": 17, 
+   "retweeted": false, 
+   "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>", 
+   "text": "We're rounding up the WORST ever #Oscars looks on tonight's show: Who gets your vote? http://t.co/rOnXa745Ua", 
+   "truncated": false, 
+   "user": {
+    "contributors_enabled": false, 
+    "created_at": "Fri Feb 27 19:41:12 +0000 2009", 
+    "default_profile": false, 
+    "default_profile_image": false, 
+    "description": "Get the latest, breaking celebrity news only on E! News weeknights at 7pm & 11pm and 24/7 at @eonline!", 
+    "entities": {
+     "description": {
+      "urls": []
+     }, 
+     "url": {
+      "urls": [
+       {
+        "display_url": "instagram.com/enews", 
+        "expanded_url": "http://instagram.com/enews", 
+        "indices": [
+         0, 
+         22
+        ], 
+        "url": "http://t.co/z1sFrdMM9n"
+       }
+      ]
+     }
+    }, 
+    "favourites_count": 6076, 
+    "follow_request_sent": false, 
+    "followers_count": 2853955, 
+    "following": false, 
+    "friends_count": 89215, 
+    "geo_enabled": true, 
+    "id": 22179997, 
+    "id_str": "22179997", 
+    "is_translation_enabled": false, 
+    "is_translator": false, 
+    "lang": "en", 
+    "listed_count": 14427, 
+    "location": "Hollywood, CA", 
+    "name": "E! News", 
+    "notifications": false, 
+    "profile_background_color": "13001C", 
+    "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/599733966/c21ul5qph5kn0t2olve6.jpeg", 
+    "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/599733966/c21ul5qph5kn0t2olve6.jpeg", 
+    "profile_background_tile": false, 
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/22179997/1401375709", 
+    "profile_image_url": "http://pbs.twimg.com/profile_images/2381369851/ees7m10w2y0ksuw52ryw_normal.jpeg", 
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/2381369851/ees7m10w2y0ksuw52ryw_normal.jpeg", 
+    "profile_link_color": "B30024", 
+    "profile_location": null, 
+    "profile_sidebar_border_color": "00327D", 
+    "profile_sidebar_fill_color": "E6E1E6", 
+    "profile_text_color": "13001C", 
+    "profile_use_background_image": true, 
+    "protected": false, 
+    "screen_name": "ENews", 
+    "statuses_count": 53758, 
+    "time_zone": "Pacific Time (US & Canada)", 
+    "url": "http://t.co/z1sFrdMM9n", 
+    "utc_offset": -28800, 
+    "verified": true
+   }
+  }, 
+  "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>", 
+  "text": "RT @ENews: We're rounding up the WORST ever #Oscars looks on tonight's show: Who gets your vote? http://t.co/rOnXa745Ua", 
+  "truncated": false, 
+  "user": {
+   "contributors_enabled": false, 
+   "created_at": "Thu Dec 19 12:32:01 +0000 2013", 
+   "default_profile": true, 
+   "default_profile_image": false, 
+   "description": "Coffee lover, mom of two adorable boys, a financial analyst by profession and a home maker by choice, love exploring my love for baking too. One head many hats!", 
+   "entities": {
+    "description": {
+     "urls": []
+    }
+   }, 
+   "favourites_count": 8, 
+   "follow_request_sent": false, 
+   "followers_count": 28, 
+   "following": false, 
+   "friends_count": 161, 
+   "geo_enabled": false, 
+   "id": 2253465066, 
+   "id_str": "2253465066", 
+   "is_translation_enabled": false, 
+   "is_translator": false, 
+   "lang": "en", 
+   "listed_count": 2, 
+   "location": "KSA", 
+   "name": "Asma", 
+   "notifications": false, 
+   "profile_background_color": "C0DEED", 
+   "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png", 
+   "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png", 
+   "profile_background_tile": false, 
+   "profile_banner_url": "https://pbs.twimg.com/profile_banners/2253465066/1423766568", 
+   "profile_image_url": "http://pbs.twimg.com/profile_images/547369075504988160/F_K-RHsL_normal.jpeg", 
+   "profile_image_url_https": "https://pbs.twimg.com/profile_images/547369075504988160/F_K-RHsL_normal.jpeg", 
+   "profile_link_color": "0084B4", 
+   "profile_location": null, 
+   "profile_sidebar_border_color": "C0DEED", 
+   "profile_sidebar_fill_color": "DDEEF6", 
+   "profile_text_color": "333333", 
+   "profile_use_background_image": true, 
+   "protected": false, 
+   "screen_name": "Asmashah01", 
+   "statuses_count": 266, 
+   "time_zone": null, 
+   "url": null, 
+   "utc_offset": null, 
+   "verified": false
+  }
+ }, 
+ {
+  "contributors": null, 
+  "coordinates": null, 
+  "created_at": "Fri Feb 20 18:46:30 +0000 2015", 
+  "entities": {
+   "hashtags": [
+    {
+     "indices": [
+      0, 
+      14
+     ], 
+     "text": "Entertainment"
+    }, 
+    {
+     "indices": [
+      22, 
+      35
+     ], 
+     "text": "blockbusters"
+    }, 
+    {
+     "indices": [
+      61, 
+      68
+     ], 
+     "text": "Oscars"
+    }, 
+    {
+     "indices": [
+      70, 
+      84
+     ], 
+     "text": "AcademyAwards"
+    }, 
+    {
+     "indices": [
+      85, 
+      92
+     ], 
+     "text": "movies"
+    }
+   ], 
+   "symbols": [], 
+   "urls": [
+    {
+     "display_url": "bit.ly/1Gcukvd", 
+     "expanded_url": "http://bit.ly/1Gcukvd", 
+     "indices": [
+      94, 
+      116
+     ], 
+     "url": "http://t.co/l1x6XP4uw2"
+    }
+   ], 
+   "user_mentions": []
+  }, 
+  "favorite_count": 0, 
+  "favorited": false, 
+  "geo": null, 
+  "id": 568844157667713025, 
+  "id_str": "568844157667713025", 
+  "in_reply_to_screen_name": null, 
+  "in_reply_to_status_id": null, 
+  "in_reply_to_status_id_str": null, 
+  "in_reply_to_user_id": null, 
+  "in_reply_to_user_id_str": null, 
+  "lang": "en", 
+  "metadata": {
+   "iso_language_code": "en", 
+   "result_type": "recent"
+  }, 
+  "place": null, 
+  "possibly_sensitive": false, 
+  "retweet_count": 0, 
+  "retweeted": false, 
+  "source": "<a href=\"http://ifttt.com\" rel=\"nofollow\">IFTTT</a>", 
+  "text": "#Entertainment:Why do #blockbusters rarely win top honors at #Oscars? #AcademyAwards #movies\n\nhttp://t.co/l1x6XP4uw2\u00a0 \u2026", 
+  "truncated": false, 
+  "user": {
+   "contributors_enabled": false, 
+   "created_at": "Thu Dec 26 11:25:45 +0000 2013", 
+   "default_profile": true, 
+   "default_profile_image": true, 
+   "description": "", 
+   "entities": {
+    "description": {
+     "urls": []
+    }
+   }, 
+   "favourites_count": 0, 
+   "follow_request_sent": false, 
+   "followers_count": 500, 
+   "following": false, 
+   "friends_count": 15, 
+   "geo_enabled": false, 
+   "id": 2262727315, 
+   "id_str": "2262727315", 
+   "is_translation_enabled": false, 
+   "is_translator": false, 
+   "lang": "en", 
+   "listed_count": 26, 
+   "location": "", 
+   "name": "News Pk", 
+   "notifications": false, 
+   "profile_background_color": "C0DEED", 
+   "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png", 
+   "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png", 
+   "profile_background_tile": false, 
+   "profile_image_url": "http://abs.twimg.com/sticky/default_profile_images/default_profile_2_normal.png", 
+   "profile_image_url_https": "https://abs.twimg.com/sticky/default_profile_images/default_profile_2_normal.png", 
+   "profile_link_color": "0084B4", 
+   "profile_location": null, 
+   "profile_sidebar_border_color": "C0DEED", 
+   "profile_sidebar_fill_color": "DDEEF6", 
+   "profile_text_color": "333333", 
+   "profile_use_background_image": true, 
+   "protected": false, 
+   "screen_name": "newspkonline247", 
+   "statuses_count": 490849, 
+   "time_zone": null, 
+   "url": null, 
+   "utc_offset": null, 
+   "verified": false
+  }
+ }, 
+ {
+  "contributors": null, 
+  "coordinates": null, 
+  "created_at": "Fri Feb 20 18:46:30 +0000 2015", 
+  "entities": {
+   "hashtags": [
+    {
+     "indices": [
+      22, 
+      33
+     ], 
+     "text": "FireAndIce"
+    }, 
+    {
+     "indices": [
+      80, 
+      87
+     ], 
+     "text": "Oscars"
+    }
+   ], 
+   "symbols": [], 
+   "urls": [
+    {
+     "display_url": "shar.es/1WpiCw", 
+     "expanded_url": "http://shar.es/1WpiCw", 
+     "indices": [
+      101, 
+      123
+     ], 
+     "url": "http://t.co/DlYFhNYzeu"
+    }
+   ], 
+   "user_mentions": [
+    {
+     "id": 250831586, 
+     "id_str": "250831586", 
+     "indices": [
+      3, 
+      11
+     ], 
+     "name": "Dwayne Johnson", 
+     "screen_name": "TheRock"
+    }, 
+    {
+     "id": 985395878, 
+     "id_str": "985395878", 
+     "indices": [
+      38, 
+      49
+     ], 
+     "name": "Craig Zadan", 
+     "screen_name": "craigzadan"
+    }, 
+    {
+     "id": 18742360, 
+     "id_str": "18742360", 
+     "indices": [
+      128, 
+      136
+     ], 
+     "name": "TheWrap", 
+     "screen_name": "TheWrap"
+    }
+   ]
+  }, 
+  "favorite_count": 0, 
+  "favorited": false, 
+  "geo": null, 
+  "id": 568844156891766784, 
+  "id_str": "568844156891766784", 
+  "in_reply_to_screen_name": null, 
+  "in_reply_to_status_id": null, 
+  "in_reply_to_status_id_str": null, 
+  "in_reply_to_user_id": null, 
+  "in_reply_to_user_id_str": null, 
+  "lang": "en", 
+  "metadata": {
+   "iso_language_code": "en", 
+   "result_type": "recent"
+  }, 
+  "place": null, 
+  "possibly_sensitive": false, 
+  "retweet_count": 160, 
+  "retweeted": false, 
+  "retweeted_status": {
+   "contributors": null, 
+   "coordinates": null, 
+   "created_at": "Fri Feb 20 16:37:10 +0000 2015", 
+   "entities": {
+    "hashtags": [
+     {
+      "indices": [
+       9, 
+       20
+      ], 
+      "text": "FireAndIce"
+     }, 
+     {
+      "indices": [
+       67, 
+       74
+      ], 
+      "text": "Oscars"
+     }
+    ], 
+    "symbols": [], 
+    "urls": [
+     {
+      "display_url": "shar.es/1WpiCw", 
+      "expanded_url": "http://shar.es/1WpiCw", 
+      "indices": [
+       88, 
+       110
+      ], 
+      "url": "http://t.co/DlYFhNYzeu"
+     }
+    ], 
+    "user_mentions": [
+     {
+      "id": 985395878, 
+      "id_str": "985395878", 
+      "indices": [
+       25, 
+       36
+      ], 
+      "name": "Craig Zadan", 
+      "screen_name": "craigzadan"
+     }, 
+     {
+      "id": 18742360, 
+      "id_str": "18742360", 
+      "indices": [
+       115, 
+       123
+      ], 
+      "name": "TheWrap", 
+      "screen_name": "TheWrap"
+     }
+    ]
+   }, 
+   "favorite_count": 477, 
+   "favorited": false, 
+   "geo": null, 
+   "id": 568811610224992256, 
+   "id_str": "568811610224992256", 
+   "in_reply_to_screen_name": "craigzadan", 
+   "in_reply_to_status_id": 568487489448624129, 
+   "in_reply_to_status_id_str": "568487489448624129", 
+   "in_reply_to_user_id": 985395878, 
+   "in_reply_to_user_id_str": "985395878", 
+   "lang": "en", 
+   "metadata": {
+    "iso_language_code": "en", 
+    "result_type": "recent"
+   }, 
+   "place": null, 
+   "possibly_sensitive": false, 
+   "retweet_count": 160, 
+   "retweeted": false, 
+   "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>", 
+   "text": "Honored. #FireAndIce RT: @craigzadan: Dwayne Johnson Will Rock the #Oscars as Presenter http://t.co/DlYFhNYzeu via @TheWrap", 
+   "truncated": false, 
+   "user": {
+    "contributors_enabled": false, 
+    "created_at": "Fri Feb 11 22:14:10 +0000 2011", 
+    "default_profile": false, 
+    "default_profile_image": false, 
+    "description": "Official Twitter account for Dwayne 'The Rock' Johnson. http://t.co/spOmCwIGrX", 
+    "entities": {
+     "description": {
+      "urls": [
+       {
+        "display_url": "instagram.com/TheRock", 
+        "expanded_url": "http://instagram.com/TheRock", 
+        "indices": [
+         56, 
+         78
+        ], 
+        "url": "http://t.co/spOmCwIGrX"
+       }
+      ]
+     }, 
+     "url": {
+      "urls": [
+       {
+        "display_url": "facebook.com/DwayneJohnson", 
+        "expanded_url": "http://www.facebook.com/DwayneJohnson", 
+        "indices": [
+         0, 
+         22
+        ], 
+        "url": "http://t.co/oa15jibQAk"
+       }
+      ]
+     }
+    }, 
+    "favourites_count": 100, 
+    "follow_request_sent": false, 
+    "followers_count": 8197953, 
+    "following": false, 
+    "friends_count": 1, 
+    "geo_enabled": true, 
+    "id": 250831586, 
+    "id_str": "250831586", 
+    "is_translation_enabled": true, 
+    "is_translator": false, 
+    "lang": "en", 
+    "listed_count": 27682, 
+    "location": "", 
+    "name": "Dwayne Johnson", 
+    "notifications": false, 
+    "profile_background_color": "131516", 
+    "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000088014848/dedc235cc458261485ddc9989b6f968b.jpeg", 
+    "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000088014848/dedc235cc458261485ddc9989b6f968b.jpeg", 
+    "profile_background_tile": true, 
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/250831586/1422723417", 
+    "profile_image_url": "http://pbs.twimg.com/profile_images/3478244961/01ebfc40ecc194a2abc81e82ab877af4_normal.jpeg", 
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/3478244961/01ebfc40ecc194a2abc81e82ab877af4_normal.jpeg", 
+    "profile_link_color": "2B3856", 
+    "profile_location": null, 
+    "profile_sidebar_border_color": "000000", 
+    "profile_sidebar_fill_color": "C7C7C7", 
+    "profile_text_color": "333333", 
+    "profile_use_background_image": false, 
+    "protected": false, 
+    "screen_name": "TheRock", 
+    "statuses_count": 9184, 
+    "time_zone": "Pacific Time (US & Canada)", 
+    "url": "http://t.co/oa15jibQAk", 
+    "utc_offset": -28800, 
+    "verified": true
+   }
+  }, 
+  "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>", 
+  "text": "RT @TheRock: Honored. #FireAndIce RT: @craigzadan: Dwayne Johnson Will Rock the #Oscars as Presenter http://t.co/DlYFhNYzeu via @TheWrap", 
+  "truncated": false, 
+  "user": {
+   "contributors_enabled": false, 
+   "created_at": "Wed Jan 07 22:37:11 +0000 2009", 
+   "default_profile": false, 
+   "default_profile_image": false, 
+   "description": "TheWrap (un)covers the naked truth about Hollywood. Founded by @SharonWaxman. Managed by @missrrosenberg and @liahaberman", 
+   "entities": {
+    "description": {
+     "urls": []
+    }, 
+    "url": {
+     "urls": [
+      {
+       "display_url": "thewrap.com", 
+       "expanded_url": "http://www.thewrap.com", 
+       "indices": [
+        0, 
+        22
+       ], 
+       "url": "http://t.co/TsMeuYCy8S"
+      }
+     ]
+    }
+   }, 
+   "favourites_count": 6461, 
+   "follow_request_sent": false, 
+   "followers_count": 89926, 
+   "following": false, 
+   "friends_count": 15816, 
+   "geo_enabled": true, 
+   "id": 18742360, 
+   "id_str": "18742360", 
+   "is_translation_enabled": false, 
+   "is_translator": false, 
+   "lang": "en", 
+   "listed_count": 2838, 
+   "location": "Los Angeles, CA", 
+   "name": "TheWrap", 
+   "notifications": false, 
+   "profile_background_color": "FA0300", 
+   "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/555807341057040385/Ol1M9NL9.png", 
+   "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/555807341057040385/Ol1M9NL9.png", 
+   "profile_background_tile": false, 
+   "profile_banner_url": "https://pbs.twimg.com/profile_banners/18742360/1378424055", 
+   "profile_image_url": "http://pbs.twimg.com/profile_images/378800000538971130/6d0d0c02e22554cab508903f7896d170_normal.png", 
+   "profile_image_url_https": "https://pbs.twimg.com/profile_images/378800000538971130/6d0d0c02e22554cab508903f7896d170_normal.png", 
+   "profile_link_color": "FA0300", 
+   "profile_location": null, 
+   "profile_sidebar_border_color": "FFFFFF", 
+   "profile_sidebar_fill_color": "F3F3F3", 
+   "profile_text_color": "333333", 
+   "profile_use_background_image": true, 
+   "protected": false, 
+   "screen_name": "TheWrap", 
+   "statuses_count": 76707, 
+   "time_zone": "Pacific Time (US & Canada)", 
+   "url": "http://t.co/TsMeuYCy8S", 
+   "utc_offset": -28800, 
+   "verified": true
+  }
+ }, 
+ {
+  "contributors": null, 
+  "coordinates": null, 
+  "created_at": "Fri Feb 20 18:46:29 +0000 2015", 
+  "entities": {
+   "hashtags": [
+    {
+     "indices": [
+      53, 
+      60
+     ], 
+     "text": "Oscars"
+    }
+   ], 
+   "symbols": [], 
+   "urls": [
+    {
+     "display_url": "vine.co/v/OQBQpD10AzJ", 
+     "expanded_url": "https://vine.co/v/OQBQpD10AzJ", 
+     "indices": [
+      61, 
+      84
+     ], 
+     "url": "https://t.co/k4igzKIQpM"
+    }
+   ], 
+   "user_mentions": [
+    {
+     "id": 337541423, 
+     "id_str": "337541423", 
+     "indices": [
+      3, 
+      17
+     ], 
+     "name": "~", 
+     "screen_name": "AwardShowNews"
+    }
+   ]
+  }, 
+  "favorite_count": 0, 
+  "favorited": false, 
+  "geo": null, 
+  "id": 568844153142038529, 
+  "id_str": "568844153142038529", 
+  "in_reply_to_screen_name": null, 
+  "in_reply_to_status_id": null, 
+  "in_reply_to_status_id_str": null, 
+  "in_reply_to_user_id": null, 
+  "in_reply_to_user_id_str": null, 
+  "lang": "en", 
+  "metadata": {
+   "iso_language_code": "en", 
+   "result_type": "recent"
+  }, 
+  "place": null, 
+  "possibly_sensitive": false, 
+  "retweet_count": 1, 
+  "retweeted": false, 
+  "retweeted_status": {
+   "contributors": null, 
+   "coordinates": null, 
+   "created_at": "Fri Feb 20 18:39:20 +0000 2015", 
+   "entities": {
+    "hashtags": [
+     {
+      "indices": [
+       34, 
+       41
+      ], 
+      "text": "Oscars"
+     }
+    ], 
+    "symbols": [], 
+    "urls": [
+     {
+      "display_url": "vine.co/v/OQBQpD10AzJ", 
+      "expanded_url": "https://vine.co/v/OQBQpD10AzJ", 
+      "indices": [
+       42, 
+       65
+      ], 
+      "url": "https://t.co/k4igzKIQpM"
+     }
+    ], 
+    "user_mentions": []
+   }, 
+   "favorite_count": 0, 
+   "favorited": false, 
+   "geo": null, 
+   "id": 568842356042141696, 
+   "id_str": "568842356042141696", 
+   "in_reply_to_screen_name": null, 
+   "in_reply_to_status_id": null, 
+   "in_reply_to_status_id_str": null, 
+   "in_reply_to_user_id": null, 
+   "in_reply_to_user_id_str": null, 
+   "lang": "en", 
+   "metadata": {
+    "iso_language_code": "en", 
+    "result_type": "recent"
+   }, 
+   "place": null, 
+   "possibly_sensitive": false, 
+   "retweet_count": 1, 
+   "retweeted": false, 
+   "source": "<a href=\"http://vine.co\" rel=\"nofollow\">Vine - Make a Scene</a>", 
+   "text": "Jennifer Lawrence keepin it real. #Oscars https://t.co/k4igzKIQpM", 
+   "truncated": false, 
+   "user": {
+    "contributors_enabled": false, 
+    "created_at": "Mon Jul 18 05:42:51 +0000 2011", 
+    "default_profile": false, 
+    "default_profile_image": false, 
+    "description": "", 
+    "entities": {
+     "description": {
+      "urls": []
+     }
+    }, 
+    "favourites_count": 63, 
+    "follow_request_sent": false, 
+    "followers_count": 16441, 
+    "following": false, 
+    "friends_count": 1927, 
+    "geo_enabled": false, 
+    "id": 337541423, 
+    "id_str": "337541423", 
+    "is_translation_enabled": false, 
+    "is_translator": false, 
+    "lang": "en", 
+    "listed_count": 23, 
+    "location": "", 
+    "name": "~", 
+    "notifications": false, 
+    "profile_background_color": "642D8B", 
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme10/bg.gif", 
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme10/bg.gif", 
+    "profile_background_tile": true, 
+    "profile_image_url": "http://pbs.twimg.com/profile_images/565667639868268545/jdUaDELK_normal.jpeg", 
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/565667639868268545/jdUaDELK_normal.jpeg", 
+    "profile_link_color": "FF0000", 
+    "profile_location": null, 
+    "profile_sidebar_border_color": "65B0DA", 
+    "profile_sidebar_fill_color": "7AC3EE", 
+    "profile_text_color": "3D1957", 
+    "profile_use_background_image": true, 
+    "protected": false, 
+    "screen_name": "AwardShowNews", 
+    "statuses_count": 8879, 
+    "time_zone": "Pacific Time (US & Canada)", 
+    "url": null, 
+    "utc_offset": -28800, 
+    "verified": false
+   }
+  }, 
+  "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>", 
+  "text": "RT @AwardShowNews: Jennifer Lawrence keepin it real. #Oscars https://t.co/k4igzKIQpM", 
+  "truncated": false, 
+  "user": {
+   "contributors_enabled": false, 
+   "created_at": "Sun May 27 00:54:35 +0000 2012", 
+   "default_profile": true, 
+   "default_profile_image": false, 
+   "description": "//(dont make me wait for a falling star)(I've been afraid that the blood in my heart) (Won't sing for me a melody that's ours)//", 
+   "entities": {
+    "description": {
+     "urls": []
+    }, 
+    "url": {
+     "urls": [
+      {
+       "display_url": "pierce-that-vic-fuentes.tumblr.com", 
+       "expanded_url": "http://pierce-that-vic-fuentes.tumblr.com", 
+       "indices": [
+        0, 
+        22
+       ], 
+       "url": "http://t.co/rT5M7n6zCe"
+      }
+     ]
+    }
+   }, 
+   "favourites_count": 2565, 
+   "follow_request_sent": false, 
+   "followers_count": 575, 
+   "following": false, 
+   "friends_count": 1805, 
+   "geo_enabled": true, 
+   "id": 591386357, 
+   "id_str": "591386357", 
+   "is_translation_enabled": false, 
+   "is_translator": false, 
+   "lang": "en", 
+   "listed_count": 5, 
+   "location": "i like bands ", 
+   "name": "minecraft noob", 
+   "notifications": false, 
+   "profile_background_color": "C0DEED", 
+   "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png", 
+   "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png", 
+   "profile_background_tile": false, 
+   "profile_banner_url": "https://pbs.twimg.com/profile_banners/591386357/1424064880", 
+   "profile_image_url": "http://pbs.twimg.com/profile_images/567195762438590466/CBE2OL3Z_normal.jpeg", 
+   "profile_image_url_https": "https://pbs.twimg.com/profile_images/567195762438590466/CBE2OL3Z_normal.jpeg", 
+   "profile_link_color": "0084B4", 
+   "profile_location": null, 
+   "profile_sidebar_border_color": "C0DEED", 
+   "profile_sidebar_fill_color": "DDEEF6", 
+   "profile_text_color": "333333", 
+   "profile_use_background_image": true, 
+   "protected": false, 
+   "screen_name": "AshtonsWombat", 
+   "statuses_count": 7931, 
+   "time_zone": "Hawaii", 
+   "url": "http://t.co/rT5M7n6zCe", 
+   "utc_offset": -36000, 
+   "verified": false
+  }
+ }, 
+ {
+  "contributors": null, 
+  "coordinates": null, 
+  "created_at": "Fri Feb 20 18:46:27 +0000 2015", 
+  "entities": {
+   "hashtags": [
+    {
+     "indices": [
+      43, 
+      50
+     ], 
+     "text": "Oscars"
+    }
+   ], 
+   "media": [
+    {
+     "display_url": "pic.twitter.com/QduWAsjW3v", 
+     "expanded_url": "http://twitter.com/ENews/status/568844038171860992/photo/1", 
+     "id": 568844037008809984, 
+     "id_str": "568844037008809984", 
+     "indices": [
+      116, 
+      138
+     ], 
+     "media_url": "http://pbs.twimg.com/media/B-Two0aCYAAnqSj.jpg", 
+     "media_url_https": "https://pbs.twimg.com/media/B-Two0aCYAAnqSj.jpg", 
+     "sizes": {
+      "large": {
+       "h": 792, 
+       "resize": "fit", 
+       "w": 634
+      }, 
+      "medium": {
+       "h": 749, 
+       "resize": "fit", 
+       "w": 600
+      }, 
+      "small": {
+       "h": 424, 
+       "resize": "fit", 
+       "w": 340
+      }, 
+      "thumb": {
+       "h": 150, 
+       "resize": "crop", 
+       "w": 150
+      }
+     }, 
+     "source_status_id": 568844038171860992, 
+     "source_status_id_str": "568844038171860992", 
+     "source_user_id": 22179997, 
+     "source_user_id_str": "22179997", 
+     "type": "photo", 
+     "url": "http://t.co/QduWAsjW3v"
+    }
+   ], 
+   "symbols": [], 
+   "urls": [], 
+   "user_mentions": [
+    {
+     "id": 22179997, 
+     "id_str": "22179997", 
+     "indices": [
+      3, 
+      9
+     ], 
+     "name": "E! News", 
+     "screen_name": "ENews"
+    }
+   ]
+  }, 
+  "favorite_count": 0, 
+  "favorited": false, 
+  "geo": null, 
+  "id": 568844146959450112, 
+  "id_str": "568844146959450112", 
+  "in_reply_to_screen_name": null, 
+  "in_reply_to_status_id": null, 
+  "in_reply_to_status_id_str": null, 
+  "in_reply_to_user_id": null, 
+  "in_reply_to_user_id_str": null, 
+  "lang": "en", 
+  "metadata": {
+   "iso_language_code": "en", 
+   "result_type": "recent"
+  }, 
+  "place": null, 
+  "possibly_sensitive": false, 
+  "retweet_count": 4, 
+  "retweeted": false, 
+  "retweeted_status": {
+   "contributors": null, 
+   "coordinates": null, 
+   "created_at": "Fri Feb 20 18:46:01 +0000 2015", 
+   "entities": {
+    "hashtags": [
+     {
+      "indices": [
+       32, 
+       39
+      ], 
+      "text": "Oscars"
+     }
+    ], 
+    "media": [
+     {
+      "display_url": "pic.twitter.com/QduWAsjW3v", 
+      "expanded_url": "http://twitter.com/ENews/status/568844038171860992/photo/1", 
+      "id": 568844037008809984, 
+      "id_str": "568844037008809984", 
+      "indices": [
+       105, 
+       127
+      ], 
+      "media_url": "http://pbs.twimg.com/media/B-Two0aCYAAnqSj.jpg", 
+      "media_url_https": "https://pbs.twimg.com/media/B-Two0aCYAAnqSj.jpg", 
+      "sizes": {
+       "large": {
+        "h": 792, 
+        "resize": "fit", 
+        "w": 634
+       }, 
+       "medium": {
+        "h": 749, 
+        "resize": "fit", 
+        "w": 600
+       }, 
+       "small": {
+        "h": 424, 
+        "resize": "fit", 
+        "w": 340
+       }, 
+       "thumb": {
+        "h": 150, 
+        "resize": "crop", 
+        "w": 150
+       }
+      }, 
+      "type": "photo", 
+      "url": "http://t.co/QduWAsjW3v"
+     }
+    ], 
+    "symbols": [], 
+    "urls": [], 
+    "user_mentions": []
+   }, 
+   "favorite_count": 13, 
+   "favorited": false, 
+   "geo": null, 
+   "id": 568844038171860992, 
+   "id_str": "568844038171860992", 
+   "in_reply_to_screen_name": null, 
+   "in_reply_to_status_id": null, 
+   "in_reply_to_status_id_str": null, 
+   "in_reply_to_user_id": null, 
+   "in_reply_to_user_id_str": null, 
+   "lang": "en", 
+   "metadata": {
+    "iso_language_code": "en", 
+    "result_type": "recent"
+   }, 
+   "place": null, 
+   "possibly_sensitive": false, 
+   "retweet_count": 4, 
+   "retweeted": false, 
+   "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>", 
+   "text": "Tonight's show is all about the #Oscars! Get ready for Hollywood's biggest night with us: 7 &amp; 11 PM! http://t.co/QduWAsjW3v", 
+   "truncated": false, 
+   "user": {
+    "contributors_enabled": false, 
+    "created_at": "Fri Feb 27 19:41:12 +0000 2009", 
+    "default_profile": false, 
+    "default_profile_image": false, 
+    "description": "Get the latest, breaking celebrity news only on E! News weeknights at 7pm & 11pm and 24/7 at @eonline!", 
+    "entities": {
+     "description": {
+      "urls": []
+     }, 
+     "url": {
+      "urls": [
+       {
+        "display_url": "instagram.com/enews", 
+        "expanded_url": "http://instagram.com/enews", 
+        "indices": [
+         0, 
+         22
+        ], 
+        "url": "http://t.co/z1sFrdMM9n"
+       }
+      ]
+     }
+    }, 
+    "favourites_count": 6076, 
+    "follow_request_sent": false, 
+    "followers_count": 2853955, 
+    "following": false, 
+    "friends_count": 89215, 
+    "geo_enabled": true, 
+    "id": 22179997, 
+    "id_str": "22179997", 
+    "is_translation_enabled": false, 
+    "is_translator": false, 
+    "lang": "en", 
+    "listed_count": 14427, 
+    "location": "Hollywood, CA", 
+    "name": "E! News", 
+    "notifications": false, 
+    "profile_background_color": "13001C", 
+    "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/599733966/c21ul5qph5kn0t2olve6.jpeg", 
+    "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/599733966/c21ul5qph5kn0t2olve6.jpeg", 
+    "profile_background_tile": false, 
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/22179997/1401375709", 
+    "profile_image_url": "http://pbs.twimg.com/profile_images/2381369851/ees7m10w2y0ksuw52ryw_normal.jpeg", 
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/2381369851/ees7m10w2y0ksuw52ryw_normal.jpeg", 
+    "profile_link_color": "B30024", 
+    "profile_location": null, 
+    "profile_sidebar_border_color": "00327D", 
+    "profile_sidebar_fill_color": "E6E1E6", 
+    "profile_text_color": "13001C", 
+    "profile_use_background_image": true, 
+    "protected": false, 
+    "screen_name": "ENews", 
+    "statuses_count": 53758, 
+    "time_zone": "Pacific Time (US & Canada)", 
+    "url": "http://t.co/z1sFrdMM9n", 
+    "utc_offset": -28800, 
+    "verified": true
+   }
+  }, 
+  "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>", 
+  "text": "RT @ENews: Tonight's show is all about the #Oscars! Get ready for Hollywood's biggest night with us: 7 &amp; 11 PM! http://t.co/QduWAsjW3v", 
+  "truncated": false, 
+  "user": {
+   "contributors_enabled": false, 
+   "created_at": "Sun Dec 02 21:14:43 +0000 2012", 
+   "default_profile": false, 
+   "default_profile_image": false, 
+   "description": "Producer: Feature Films. TV Series, Live Events, Movies & Miniseries. Broadway musicals. 85th, 86th, 87th Oscar telecasts. Author: Sondheim & Co.", 
+   "entities": {
+    "description": {
+     "urls": []
+    }, 
+    "url": {
+     "urls": [
+      {
+       "display_url": "zadanmeronproductions.com", 
+       "expanded_url": "http://www.zadanmeronproductions.com", 
+       "indices": [
+        0, 
+        22
+       ], 
+       "url": "http://t.co/uaQwoRaNDx"
+      }
+     ]
+    }
+   }, 
+   "favourites_count": 1095, 
+   "follow_request_sent": false, 
+   "followers_count": 23239, 
+   "following": false, 
+   "friends_count": 1241, 
+   "geo_enabled": true, 
+   "id": 985395878, 
+   "id_str": "985395878", 
+   "is_translation_enabled": false, 
+   "is_translator": false, 
+   "lang": "en", 
+   "listed_count": 143, 
+   "location": "Los Angeles & New York. ", 
+   "name": "Craig Zadan", 
+   "notifications": false, 
+   "profile_background_color": "000000", 
+   "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png", 
+   "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png", 
+   "profile_background_tile": false, 
+   "profile_banner_url": "https://pbs.twimg.com/profile_banners/985395878/1399784373", 
+   "profile_image_url": "http://pbs.twimg.com/profile_images/539145498980925441/rXB34Jj5_normal.jpeg", 
+   "profile_image_url_https": "https://pbs.twimg.com/profile_images/539145498980925441/rXB34Jj5_normal.jpeg", 
+   "profile_link_color": "4A913C", 
+   "profile_location": null, 
+   "profile_sidebar_border_color": "000000", 
+   "profile_sidebar_fill_color": "000000", 
+   "profile_text_color": "000000", 
+   "profile_use_background_image": false, 
+   "protected": false, 
+   "screen_name": "craigzadan", 
+   "statuses_count": 1988, 
+   "time_zone": "Pacific Time (US & Canada)", 
+   "url": "http://t.co/uaQwoRaNDx", 
+   "utc_offset": -28800, 
+   "verified": true
+  }
+ }, 
+ {
+  "contributors": null, 
+  "coordinates": null, 
+  "created_at": "Fri Feb 20 18:46:23 +0000 2015", 
+  "entities": {
+   "hashtags": [
+    {
+     "indices": [
+      0, 
+      16
+     ], 
+     "text": "flashbackfriday"
+    }, 
+    {
+     "indices": [
+      54, 
+      61
+     ], 
+     "text": "oscars"
+    }
+   ], 
+   "symbols": [], 
+   "urls": [
+    {
+     "display_url": "instagram.com/p/zVWObNCytR/", 
+     "expanded_url": "http://instagram.com/p/zVWObNCytR/", 
+     "indices": [
+      100, 
+      122
+     ], 
+     "url": "http://t.co/qXKxh4ver5"
+    }
+   ], 
+   "user_mentions": []
+  }, 
+  "favorite_count": 0, 
+  "favorited": false, 
+  "geo": null, 
+  "id": 568844129012199424, 
+  "id_str": "568844129012199424", 
+  "in_reply_to_screen_name": null, 
+  "in_reply_to_status_id": null, 
+  "in_reply_to_status_id_str": null, 
+  "in_reply_to_user_id": null, 
+  "in_reply_to_user_id_str": null, 
+  "lang": "en", 
+  "metadata": {
+   "iso_language_code": "en", 
+   "result_type": "recent"
+  }, 
+  "place": null, 
+  "possibly_sensitive": false, 
+  "retweet_count": 0, 
+  "retweeted": false, 
+  "source": "<a href=\"http://instagram.com\" rel=\"nofollow\">Instagram</a>", 
+  "text": "#flashbackfriday jlo rocking some serious hair at the #oscars! Who do you think will have the best\u2026 http://t.co/qXKxh4ver5", 
+  "truncated": false, 
+  "user": {
+   "contributors_enabled": false, 
+   "created_at": "Wed Jun 11 21:53:46 +0000 2014", 
+   "default_profile": false, 
+   "default_profile_image": false, 
+   "description": "Unparalleled #design, #innovation, and #craftsmanship. \r\n\r\n#glampalm #official #usa\r\nhttp://t.co/EXHhuBQtjA", 
+   "entities": {
+    "description": {
+     "urls": [
+      {
+       "display_url": "glampalm.com", 
+       "expanded_url": "http://www.glampalm.com", 
+       "indices": [
+        85, 
+        107
+       ], 
+       "url": "http://t.co/EXHhuBQtjA"
+      }
+     ]
+    }, 
+    "url": {
+     "urls": [
+      {
+       "display_url": "glampalm.com", 
+       "expanded_url": "http://www.glampalm.com", 
+       "indices": [
+        0, 
+        22
+       ], 
+       "url": "http://t.co/EXHhuBQtjA"
+      }
+     ]
+    }
+   }, 
+   "favourites_count": 259, 
+   "follow_request_sent": false, 
+   "followers_count": 85, 
+   "following": false, 
+   "friends_count": 357, 
+   "geo_enabled": false, 
+   "id": 2562134766, 
+   "id_str": "2562134766", 
+   "is_translation_enabled": false, 
+   "is_translator": false, 
+   "lang": "en", 
+   "listed_count": 2, 
+   "location": "Los Angeles, CA", 
+   "name": "Glampalm USA", 
+   "notifications": false, 
+   "profile_background_color": "000000", 
+   "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png", 
+   "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png", 
+   "profile_background_tile": false, 
+   "profile_banner_url": "https://pbs.twimg.com/profile_banners/2562134766/1424195136", 
+   "profile_image_url": "http://pbs.twimg.com/profile_images/540952103854673920/z_sPq2QU_normal.jpeg", 
+   "profile_image_url_https": "https://pbs.twimg.com/profile_images/540952103854673920/z_sPq2QU_normal.jpeg", 
+   "profile_link_color": "F70505", 
+   "profile_location": null, 
+   "profile_sidebar_border_color": "FFFFFF", 
+   "profile_sidebar_fill_color": "DDEEF6", 
+   "profile_text_color": "333333", 
+   "profile_use_background_image": false, 
+   "protected": false, 
+   "screen_name": "GlampalmUSA", 
+   "statuses_count": 691, 
+   "time_zone": "Arizona", 
+   "url": "http://t.co/EXHhuBQtjA", 
+   "utc_offset": -25200, 
+   "verified": false
+  }
+ }, 
+ {
+  "contributors": null, 
+  "coordinates": null, 
+  "created_at": "Fri Feb 20 18:46:22 +0000 2015", 
+  "entities": {
+   "hashtags": [
+    {
+     "indices": [
+      123, 
+      130
+     ], 
+     "text": "Oscars"
+    }
+   ], 
+   "media": [
+    {
+     "display_url": "pic.twitter.com/F4WqWEiOKf", 
+     "expanded_url": "http://twitter.com/AdskMaya/status/568832459057590272/photo/1", 
+     "id": 568832458901450752, 
+     "id_str": "568832458901450752", 
+     "indices": [
+      139, 
+      140
+     ], 
+     "media_url": "http://pbs.twimg.com/media/B-TmG4mIcAAfki6.jpg", 
+     "media_url_https": "https://pbs.twimg.com/media/B-TmG4mIcAAfki6.jpg", 
+     "sizes": {
+      "large": {
+       "h": 576, 
+       "resize": "fit", 
+       "w": 1024
+      }, 
+      "medium": {
+       "h": 337, 
+       "resize": "fit", 
+       "w": 600
+      }, 
+      "small": {
+       "h": 191, 
+       "resize": "fit", 
+       "w": 340
+      }, 
+      "thumb": {
+       "h": 150, 
+       "resize": "crop", 
+       "w": 150
+      }
+     }, 
+     "source_status_id": 568832459057590272, 
+     "source_status_id_str": "568832459057590272", 
+     "source_user_id": 1372855105, 
+     "source_user_id_str": "1372855105", 
+     "type": "photo", 
+     "url": "http://t.co/F4WqWEiOKf"
+    }
+   ], 
+   "symbols": [], 
+   "urls": [], 
+   "user_mentions": [
+    {
+     "id": 1372855105, 
+     "id_str": "1372855105", 
+     "indices": [
+      3, 
+      12
+     ], 
+     "name": "Autodesk Maya", 
+     "screen_name": "AdskMaya"
+    }, 
+    {
+     "id": 198904314, 
+     "id_str": "198904314", 
+     "indices": [
+      110, 
+      122
+     ], 
+     "name": "the fxguide crew", 
+     "screen_name": "fxguidenews"
+    }
+   ]
+  }, 
+  "favorite_count": 0, 
+  "favorited": false, 
+  "geo": null, 
+  "id": 568844124071301120, 
+  "id_str": "568844124071301120", 
+  "in_reply_to_screen_name": null, 
+  "in_reply_to_status_id": null, 
+  "in_reply_to_status_id_str": null, 
+  "in_reply_to_user_id": null, 
+  "in_reply_to_user_id_str": null, 
+  "lang": "en", 
+  "metadata": {
+   "iso_language_code": "en", 
+   "result_type": "recent"
+  }, 
+  "place": null, 
+  "possibly_sensitive": false, 
+  "retweet_count": 2, 
+  "retweeted": false, 
+  "retweeted_status": {
+   "contributors": null, 
+   "coordinates": null, 
+   "created_at": "Fri Feb 20 18:00:01 +0000 2015", 
+   "entities": {
+    "hashtags": [
+     {
+      "indices": [
+       109, 
+       116
+      ], 
+      "text": "Oscars"
+     }
+    ], 
+    "media": [
+     {
+      "display_url": "pic.twitter.com/F4WqWEiOKf", 
+      "expanded_url": "http://twitter.com/AdskMaya/status/568832459057590272/photo/1", 
+      "id": 568832458901450752, 
+      "id_str": "568832458901450752", 
+      "indices": [
+       117, 
+       139
+      ], 
+      "media_url": "http://pbs.twimg.com/media/B-TmG4mIcAAfki6.jpg", 
+      "media_url_https": "https://pbs.twimg.com/media/B-TmG4mIcAAfki6.jpg", 
+      "sizes": {
+       "large": {
+        "h": 576, 
+        "resize": "fit", 
+        "w": 1024
+       }, 
+       "medium": {
+        "h": 337, 
+        "resize": "fit", 
+        "w": 600
+       }, 
+       "small": {
+        "h": 191, 
+        "resize": "fit", 
+        "w": 340
+       }, 
+       "thumb": {
+        "h": 150, 
+        "resize": "crop", 
+        "w": 150
+       }
+      }, 
+      "type": "photo", 
+      "url": "http://t.co/F4WqWEiOKf"
+     }
+    ], 
+    "symbols": [], 
+    "urls": [], 
+    "user_mentions": [
+     {
+      "id": 198904314, 
+      "id_str": "198904314", 
+      "indices": [
+       96, 
+       108
+      ], 
+      "name": "the fxguide crew", 
+      "screen_name": "fxguidenews"
+     }
+    ]
+   }, 
+   "favorite_count": 0, 
+   "favorited": false, 
+   "geo": null, 
+   "id": 568832459057590272, 
+   "id_str": "568832459057590272", 
+   "in_reply_to_screen_name": null, 
+   "in_reply_to_status_id": null, 
+   "in_reply_to_status_id_str": null, 
+   "in_reply_to_user_id": null, 
+   "in_reply_to_user_id_str": null, 
+   "lang": "en", 
+   "metadata": {
+    "iso_language_code": "en", 
+    "result_type": "recent"
+   }, 
+   "place": null, 
+   "possibly_sensitive": false, 
+   "retweet_count": 2, 
+   "retweeted": false, 
+   "source": "<a href=\"http://www.sprinklr.com\" rel=\"nofollow\">Sprinklr</a>", 
+   "text": "Birdman took flight w/on-set wire rig lift,background plates,HDRs,greenscreen,LED light panels /@fxguidenews #Oscars http://t.co/F4WqWEiOKf", 
+   "truncated": false, 
+   "user": {
+    "contributors_enabled": false, 
+    "created_at": "Mon Apr 22 18:53:59 +0000 2013", 
+    "default_profile": false, 
+    "default_profile_image": false, 
+    "description": "Official Twitter for the comprehensive 3D animation software that offers artists an end-to-end creative workflow. Need help? Try http://t.co/TE3QA55RZH", 
+    "entities": {
+     "description": {
+      "urls": [
+       {
+        "display_url": "autode.sk/mayaforums", 
+        "expanded_url": "http://autode.sk/mayaforums", 
+        "indices": [
+         129, 
+         151
+        ], 
+        "url": "http://t.co/TE3QA55RZH"
+       }
+      ]
+     }, 
+     "url": {
+      "urls": [
+       {
+        "display_url": "autodesk.com/maya", 
+        "expanded_url": "http://autodesk.com/maya", 
+        "indices": [
+         0, 
+         22
+        ], 
+        "url": "http://t.co/7GvXZPYdct"
+       }
+      ]
+     }
+    }, 
+    "favourites_count": 3, 
+    "follow_request_sent": false, 
+    "followers_count": 4676, 
+    "following": false, 
+    "friends_count": 635, 
+    "geo_enabled": false, 
+    "id": 1372855105, 
+    "id_str": "1372855105", 
+    "is_translation_enabled": false, 
+    "is_translator": false, 
+    "lang": "en", 
+    "listed_count": 97, 
+    "location": "", 
+    "name": "Autodesk Maya", 
+    "notifications": false, 
+    "profile_background_color": "D6D6D6", 
+    "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/861881849/ffdb2eaddaaef838f5e8755694f4f9fd.png", 
+    "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/861881849/ffdb2eaddaaef838f5e8755694f4f9fd.png", 
+    "profile_background_tile": false, 
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/1372855105/1414852575", 
+    "profile_image_url": "http://pbs.twimg.com/profile_images/542693163945574400/0-1uEkur_normal.png", 
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/542693163945574400/0-1uEkur_normal.png", 
+    "profile_link_color": "009EB3", 
+    "profile_location": null, 
+    "profile_sidebar_border_color": "000000", 
+    "profile_sidebar_fill_color": "DDEEF6", 
+    "profile_text_color": "333333", 
+    "profile_use_background_image": true, 
+    "protected": false, 
+    "screen_name": "AdskMaya", 
+    "statuses_count": 901, 
+    "time_zone": "Atlantic Time (Canada)", 
+    "url": "http://t.co/7GvXZPYdct", 
+    "utc_offset": -14400, 
+    "verified": false
+   }
+  }, 
+  "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>", 
+  "text": "RT @AdskMaya: Birdman took flight w/on-set wire rig lift,background plates,HDRs,greenscreen,LED light panels /@fxguidenews #Oscars http://t\u2026", 
+  "truncated": false, 
+  "user": {
+   "contributors_enabled": false, 
+   "created_at": "Thu Feb 06 14:30:21 +0000 2014", 
+   "default_profile": true, 
+   "default_profile_image": false, 
+   "description": "\u03a0\u03c1\u03cc\u03b3\u03c1\u03b1\u03bc\u03bc\u03b1 \u039c\u03b5\u03c4\u03b1\u03c0\u03c4\u03c5\u03c7\u03b9\u03b1\u03ba\u03ce\u03bd \u03a3\u03c0\u03bf\u03c5\u03b4\u03ce\u03bd: \u03a0\u03bb\u03b7\u03c1\u03bf\u03c6\u03bf\u03c1\u03b9\u03ba\u03ae, \u03a3\u03cd\u03bd\u03b8\u03b5\u03c3\u03b7 \u0395\u03b9\u03ba\u03cc\u03bd\u03c9\u03bd & \u03a3\u03c7\u03b5\u03b4\u03b9\u03b1\u03c3\u03bc\u03cc\u03c2 \u0393\u03c1\u03b1\u03c6\u03b9\u03ba\u03ce\u03bd  (Informatique, Synth\u00e8se d\u2019Images et Conception Graphique, ISICG TIM)", 
+   "entities": {
+    "description": {
+     "urls": []
+    }, 
+    "url": {
+     "urls": [
+      {
+       "display_url": "master-isicg.teiath.gr", 
+       "expanded_url": "http://master-isicg.teiath.gr", 
+       "indices": [
+        0, 
+        22
+       ], 
+       "url": "http://t.co/LXtD04DrA4"
+      }
+     ]
+    }
+   }, 
+   "favourites_count": 4, 
+   "follow_request_sent": false, 
+   "followers_count": 9, 
+   "following": false, 
+   "friends_count": 17, 
+   "geo_enabled": false, 
+   "id": 2330375630, 
+   "id_str": "2330375630", 
+   "is_translation_enabled": false, 
+   "is_translator": false, 
+   "lang": "en", 
+   "listed_count": 1, 
+   "location": "Athens", 
+   "name": "Master ISICG TIM", 
+   "notifications": false, 
+   "profile_background_color": "C0DEED", 
+   "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png", 
+   "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png", 
+   "profile_background_tile": false, 
+   "profile_banner_url": "https://pbs.twimg.com/profile_banners/2330375630/1398759190", 
+   "profile_image_url": "http://pbs.twimg.com/profile_images/433274834768769024/cGjWv_HV_normal.png", 
+   "profile_image_url_https": "https://pbs.twimg.com/profile_images/433274834768769024/cGjWv_HV_normal.png", 
+   "profile_link_color": "0084B4", 
+   "profile_location": null, 
+   "profile_sidebar_border_color": "C0DEED", 
+   "profile_sidebar_fill_color": "DDEEF6", 
+   "profile_text_color": "333333", 
+   "profile_use_background_image": true, 
+   "protected": false, 
+   "screen_name": "MasterISICGTIM", 
+   "statuses_count": 133, 
+   "time_zone": null, 
+   "url": "http://t.co/LXtD04DrA4", 
+   "utc_offset": null, 
+   "verified": false
+  }
+ }, 
+ {
+  "contributors": null, 
+  "coordinates": null, 
+  "created_at": "Fri Feb 20 18:46:20 +0000 2015", 
+  "entities": {
+   "hashtags": [
+    {
+     "indices": [
+      43, 
+      50
+     ], 
+     "text": "Oscars"
+    }
+   ], 
+   "media": [
+    {
+     "display_url": "pic.twitter.com/QduWAsjW3v", 
+     "expanded_url": "http://twitter.com/ENews/status/568844038171860992/photo/1", 
+     "id": 568844037008809984, 
+     "id_str": "568844037008809984", 
+     "indices": [
+      116, 
+      138
+     ], 
+     "media_url": "http://pbs.twimg.com/media/B-Two0aCYAAnqSj.jpg", 
+     "media_url_https": "https://pbs.twimg.com/media/B-Two0aCYAAnqSj.jpg", 
+     "sizes": {
+      "large": {
+       "h": 792, 
+       "resize": "fit", 
+       "w": 634
+      }, 
+      "medium": {
+       "h": 749, 
+       "resize": "fit", 
+       "w": 600
+      }, 
+      "small": {
+       "h": 424, 
+       "resize": "fit", 
+       "w": 340
+      }, 
+      "thumb": {
+       "h": 150, 
+       "resize": "crop", 
+       "w": 150
+      }
+     }, 
+     "source_status_id": 568844038171860992, 
+     "source_status_id_str": "568844038171860992", 
+     "source_user_id": 22179997, 
+     "source_user_id_str": "22179997", 
+     "type": "photo", 
+     "url": "http://t.co/QduWAsjW3v"
+    }
+   ], 
+   "symbols": [], 
+   "urls": [], 
+   "user_mentions": [
+    {
+     "id": 22179997, 
+     "id_str": "22179997", 
+     "indices": [
+      3, 
+      9
+     ], 
+     "name": "E! News", 
+     "screen_name": "ENews"
+    }
+   ]
+  }, 
+  "favorite_count": 0, 
+  "favorited": false, 
+  "geo": null, 
+  "id": 568844117142347776, 
+  "id_str": "568844117142347776", 
+  "in_reply_to_screen_name": null, 
+  "in_reply_to_status_id": null, 
+  "in_reply_to_status_id_str": null, 
+  "in_reply_to_user_id": null, 
+  "in_reply_to_user_id_str": null, 
+  "lang": "en", 
+  "metadata": {
+   "iso_language_code": "en", 
+   "result_type": "recent"
+  }, 
+  "place": null, 
+  "possibly_sensitive": false, 
+  "retweet_count": 4, 
+  "retweeted": false, 
+  "retweeted_status": {
+   "contributors": null, 
+   "coordinates": null, 
+   "created_at": "Fri Feb 20 18:46:01 +0000 2015", 
+   "entities": {
+    "hashtags": [
+     {
+      "indices": [
+       32, 
+       39
+      ], 
+      "text": "Oscars"
+     }
+    ], 
+    "media": [
+     {
+      "display_url": "pic.twitter.com/QduWAsjW3v", 
+      "expanded_url": "http://twitter.com/ENews/status/568844038171860992/photo/1", 
+      "id": 568844037008809984, 
+      "id_str": "568844037008809984", 
+      "indices": [
+       105, 
+       127
+      ], 
+      "media_url": "http://pbs.twimg.com/media/B-Two0aCYAAnqSj.jpg", 
+      "media_url_https": "https://pbs.twimg.com/media/B-Two0aCYAAnqSj.jpg", 
+      "sizes": {
+       "large": {
+        "h": 792, 
+        "resize": "fit", 
+        "w": 634
+       }, 
+       "medium": {
+        "h": 749, 
+        "resize": "fit", 
+        "w": 600
+       }, 
+       "small": {
+        "h": 424, 
+        "resize": "fit", 
+        "w": 340
+       }, 
+       "thumb": {
+        "h": 150, 
+        "resize": "crop", 
+        "w": 150
+       }
+      }, 
+      "type": "photo", 
+      "url": "http://t.co/QduWAsjW3v"
+     }
+    ], 
+    "symbols": [], 
+    "urls": [], 
+    "user_mentions": []
+   }, 
+   "favorite_count": 13, 
+   "favorited": false, 
+   "geo": null, 
+   "id": 568844038171860992, 
+   "id_str": "568844038171860992", 
+   "in_reply_to_screen_name": null, 
+   "in_reply_to_status_id": null, 
+   "in_reply_to_status_id_str": null, 
+   "in_reply_to_user_id": null, 
+   "in_reply_to_user_id_str": null, 
+   "lang": "en", 
+   "metadata": {
+    "iso_language_code": "en", 
+    "result_type": "recent"
+   }, 
+   "place": null, 
+   "possibly_sensitive": false, 
+   "retweet_count": 4, 
+   "retweeted": false, 
+   "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>", 
+   "text": "Tonight's show is all about the #Oscars! Get ready for Hollywood's biggest night with us: 7 &amp; 11 PM! http://t.co/QduWAsjW3v", 
+   "truncated": false, 
+   "user": {
+    "contributors_enabled": false, 
+    "created_at": "Fri Feb 27 19:41:12 +0000 2009", 
+    "default_profile": false, 
+    "default_profile_image": false, 
+    "description": "Get the latest, breaking celebrity news only on E! News weeknights at 7pm & 11pm and 24/7 at @eonline!", 
+    "entities": {
+     "description": {
+      "urls": []
+     }, 
+     "url": {
+      "urls": [
+       {
+        "display_url": "instagram.com/enews", 
+        "expanded_url": "http://instagram.com/enews", 
+        "indices": [
+         0, 
+         22
+        ], 
+        "url": "http://t.co/z1sFrdMM9n"
+       }
+      ]
+     }
+    }, 
+    "favourites_count": 6076, 
+    "follow_request_sent": false, 
+    "followers_count": 2853955, 
+    "following": false, 
+    "friends_count": 89215, 
+    "geo_enabled": true, 
+    "id": 22179997, 
+    "id_str": "22179997", 
+    "is_translation_enabled": false, 
+    "is_translator": false, 
+    "lang": "en", 
+    "listed_count": 14427, 
+    "location": "Hollywood, CA", 
+    "name": "E! News", 
+    "notifications": false, 
+    "profile_background_color": "13001C", 
+    "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/599733966/c21ul5qph5kn0t2olve6.jpeg", 
+    "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/599733966/c21ul5qph5kn0t2olve6.jpeg", 
+    "profile_background_tile": false, 
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/22179997/1401375709", 
+    "profile_image_url": "http://pbs.twimg.com/profile_images/2381369851/ees7m10w2y0ksuw52ryw_normal.jpeg", 
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/2381369851/ees7m10w2y0ksuw52ryw_normal.jpeg", 
+    "profile_link_color": "B30024", 
+    "profile_location": null, 
+    "profile_sidebar_border_color": "00327D", 
+    "profile_sidebar_fill_color": "E6E1E6", 
+    "profile_text_color": "13001C", 
+    "profile_use_background_image": true, 
+    "protected": false, 
+    "screen_name": "ENews", 
+    "statuses_count": 53758, 
+    "time_zone": "Pacific Time (US & Canada)", 
+    "url": "http://t.co/z1sFrdMM9n", 
+    "utc_offset": -28800, 
+    "verified": true
+   }
+  }, 
+  "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>", 
+  "text": "RT @ENews: Tonight's show is all about the #Oscars! Get ready for Hollywood's biggest night with us: 7 &amp; 11 PM! http://t.co/QduWAsjW3v", 
+  "truncated": false, 
+  "user": {
+   "contributors_enabled": false, 
+   "created_at": "Fri Jul 27 09:16:45 +0000 2012", 
+   "default_profile": false, 
+   "default_profile_image": false, 
+   "description": "bonjour moi c'est marco mazet j'ai 21 ans est habite poitiers je suis passionn\u00e9 par la com\u00e9die je fait partie d'une troupe de th\u00e9\u00e2tres!", 
+   "entities": {
+    "description": {
+     "urls": []
+    }
+   }, 
+   "favourites_count": 152, 
+   "follow_request_sent": false, 
+   "followers_count": 130, 
+   "following": false, 
+   "friends_count": 358, 
+   "geo_enabled": true, 
+   "id": 719809308, 
+   "id_str": "719809308", 
+   "is_translation_enabled": false, 
+   "is_translator": false, 
+   "lang": "fr", 
+   "listed_count": 3, 
+   "location": "poitiers 86", 
+   "name": "marco mazet", 
+   "notifications": f

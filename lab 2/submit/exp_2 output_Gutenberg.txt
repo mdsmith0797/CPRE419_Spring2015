@@ -1,0 +1,31 @@
+Part 1
+
+a	most frequent bigram(s): 'and the'		373178
+c	most frequent bigram(s): 'could not'		61126
+e	most frequent bigram(s): 'end of'		31859
+g	most frequent bigram(s): 'going to'		33285
+i	most frequent bigram(s): 'in the'		751197
+k	most frequent bigram(s): 'kind of'		23086
+m	most frequent bigram(s): 'may be'		78394
+o	most frequent bigram(s): 'of the'		1422537
+q	most frequent bigram(s): 'question of'		4842
+s	most frequent bigram(s): 'she had'		74872
+u	most frequent bigram(s): 'upon the'		71796
+w	most frequent bigram(s): 'with the'		202363
+y	most frequent bigram(s): 'you are'		63810
+
+Part 2
+
+b	most frequent bigram(s): 'by the'		226443
+d	most frequent bigram(s): 'did not'		91616
+f	most frequent bigram(s): 'for the'		230315
+h	most frequent bigram(s): 'he was'		179060
+j	most frequent bigram(s): 'just as'		16760
+l	most frequent bigram(s): 'like a'		46703
+n	most frequent bigram(s): 'not to'		46036
+p	most frequent bigram(s): 'project gutenberg'		60450
+r	most frequent bigram(s): 'ready to'		12720
+t	most frequent bigram(s): 'to the'		564351
+v	most frequent bigram(s): 'very well'		11149
+x	most frequent bigram(s): 'x trillionthis'		718
+z	most frequent bigram(s): 'zipcorrected editions'		1984

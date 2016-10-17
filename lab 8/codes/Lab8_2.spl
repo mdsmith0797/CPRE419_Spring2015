@@ -1,0 +1,52 @@
+namespace application ;
+
+composite Lab8_2
+{
+	graph
+		// Parse each line of csv into a tuple with 4 attributes
+		(stream<rstring TransID, rstring FirstName, rstring LastName,
+			float64 Purchase> Lines) as FileSource_2 = FileSource()
+		{
+			param
+				file : getSubmissionTimeValue("file") ;
+				format : csv ;
+		}
+
+		(stream<rstring records> Discont) as Functor_2 = Functor(Lines)
+		{
+			logic
+				state :
+				{
+					// reserve two variables
+					mutable rstring Name ;
+					mutable float64 Discount ;
+				}
+
+				onTuple Lines :
+				{
+					// compute Name by combining first and last name
+					Name = FirstName + " " + LastName;
+					// compute discounts by conditions
+					if(Purchase>=1000f){Discount=0.05*Purchase; }
+					else
+					if(Purchase>=500f & Purchase<1000f){Discount=0.02f*Purchase; }
+					else
+					if(Purchase>=250f & Purchase<500f){Discount=0.01f*Purchase; }
+					else Discount=0f;
+				}
+
+			output
+				// arrange everything into a line
+				Discont : records =TransID + "," + Name + "," + (rstring)Purchase 
+				+ "$," + (rstring)Discount + "$";
+		}
+
+		() as FileSink_3 = FileSink(Discont)
+		{
+			param
+				file : "CustomerStatus.txt" ;
+				format : line ;
+		}
+
+}
+
